@@ -1,0 +1,30 @@
+
+
+.hero {
+    background-image:url(../img/jumbotron.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.w-65 {
+    width:15%;
+}
+
+@media (max-width: 991.98px) {
+    .w-65 {
+        width:65%;
+    }
+}
+.min-vh-75 {
+    min-height:75vh !important;
+}
+
+.heading-1 {
+    font-size:52px;
+    font-weight:normal;
+}
+
+.info{
+    background-color: #ccffff;
+    color: #008080;
+}
